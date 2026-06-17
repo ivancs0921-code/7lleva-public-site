@@ -2,7 +2,7 @@
 
 Página pública oficial de 7Lleva preparada para Cloudflare Pages.
 
-Este proyecto es independiente de la app principal ubicada en `C:\dev\7Lleva`. No contiene backend, pagos, Google Maps, Mercado Pago, base de datos ni archivos internos de la app móvil.
+Este proyecto es independiente de la app principal de 7Lleva. No contiene backend, pagos, Google Maps, Mercado Pago, base de datos ni archivos internos de la app móvil.
 
 ## Stack
 
@@ -51,7 +51,7 @@ No se incluyen datos personales, domicilio personal, teléfono personal, claves,
 ## Instalación
 
 ```powershell
-cd C:\dev\7Lleva-public-site
+cd 7Lleva-public-site
 npm install
 ```
 
@@ -79,7 +79,7 @@ dist/
 npm run check
 ```
 
-## Cloudflare Pages
+## Cloudflare Workers Static Assets
 
 Configuración recomendada:
 
@@ -89,7 +89,7 @@ Configuración recomendada:
 - Root directory: raíz del repositorio de este proyecto
 - Production domain: `7lleva.com`
 
-La documentación oficial de Cloudflare Pages para Vite/React indica usar `npm run build` como build command y `dist` como build directory.
+La URL temporal `workers.dev` debe usarse solo para pruebas internas de despliegue. No debe compartirse públicamente ni usarse como dominio oficial de 7Lleva.
 
 ## Dominios
 

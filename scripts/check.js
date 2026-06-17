@@ -9,12 +9,34 @@ const requiredFiles = [
   'robots.txt',
   'sitemap.xml',
   '_headers',
-  '_redirects',
   'assets/favicon.svg',
   'assets/hero-7lleva.png',
   'assets/7lleva-icon.png'
 ];
-const forbiddenTextPatterns = [/\.env/i, /access_token/i, /api[_-]?key/i];
+function escapeForRegex(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+const forbiddenIdentityTerms = [
+  ['Iv', 'an'],
+  ['Iv', String.fromCharCode(225), 'n'],
+  ['Jo', 'se Iv', 'an'],
+  ['Jos', String.fromCharCode(233), ' Iv', String.fromCharCode(225), 'n'],
+  ['Cis', 'neros'],
+  ['Sil', 'va'],
+  ['iva', 'ncs'],
+  ['iva', 'ncs0921'],
+  ['g', 'mail', '.com'],
+  ['Mar', 'cos Cas', 'tellanos'],
+  ['595', '00']
+].map((parts) => parts.join(''));
+
+const forbiddenTextPatterns = [
+  /\.env/i,
+  /access_token/i,
+  /api[ _-]?keys?/i,
+  ...forbiddenIdentityTerms.map((term) => new RegExp(escapeForRegex(term), 'i'))
+];
 const forbiddenReadablePatterns = [/\b\d{10}\b/];
 const requiredTextPatterns = [
   /Próximamente/i,
