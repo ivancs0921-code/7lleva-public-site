@@ -22,7 +22,7 @@ export const site = {
     contact: 'contacto@7lleva.com',
     legal: 'legal@7lleva.com'
   },
-  legalResponsible: '7Lleva como nombre comercial; información legal definitiva pendiente de formalización.',
+  legalResponsible: '7Lleva como nombre comercial; la información legal aplicable se publicará antes del inicio de operaciones.',
   zones: [
     'San José de Gracia',
     'La Manzanilla de la Paz',
@@ -87,15 +87,15 @@ export const legalPages: LegalPage[] = [
     slug: 'aviso-privacidad',
     navLabel: 'Aviso de privacidad',
     title: 'Aviso de privacidad',
-    description: 'Borrador público del aviso de privacidad de 7Lleva, pendiente de revisión profesional antes de publicación definitiva.',
-    eyebrow: 'Borrador legal',
-    intro: 'Documento base para la etapa inicial. No sustituye la revisión de un abogado ni la configuración legal definitiva.',
+    description: 'Aviso de privacidad en preparación para la etapa de lanzamiento de 7Lleva. La versión aplicable se publicará antes del inicio de operaciones.',
+    eyebrow: 'Documento en preparación para lanzamiento',
+    intro: 'Documento en preparación para lanzamiento. La versión aplicable se publicará antes del inicio de operaciones.',
     sections: [
       {
         title: 'Responsable e identidad',
         paragraphs: [
           site.legalResponsible,
-          'Correo legal previsto: legal@7lleva.com. Los correos públicos deben activarse antes de publicación definitiva.'
+          'Correo legal previsto: legal@7lleva.com. Los correos públicos funcionarán como canales de contacto del proyecto antes del inicio de operaciones.'
         ]
       },
       {
@@ -121,13 +121,13 @@ export const legalPages: LegalPage[] = [
       {
         title: 'Derechos ARCO y seguridad',
         paragraphs: [
-          'El procedimiento formal para derechos ARCO queda pendiente de definición. El canal previsto para solicitudes será legal@7lleva.com.',
+          'El procedimiento formal para derechos ARCO se publicará antes del inicio de operaciones. El canal previsto para solicitudes será legal@7lleva.com.',
           '7Lleva no debe almacenar CVV, PAN completo, vencimiento ni credenciales bancarias.'
         ]
       },
       {
         title: 'Cambios al aviso',
-        paragraphs: ['Fecha de última actualización: pendiente. Este aviso podrá ajustarse antes de la publicación oficial.']
+        paragraphs: ['Fecha de última actualización: por confirmar antes del lanzamiento oficial. Este aviso podrá ajustarse antes del inicio de operaciones.']
       }
     ]
   },
@@ -135,15 +135,15 @@ export const legalPages: LegalPage[] = [
     slug: 'terminos-condiciones',
     navLabel: 'Términos y condiciones',
     title: 'Términos y condiciones',
-    description: 'Borrador de términos y condiciones de 7Lleva para revisión legal, fiscal y operativa antes de publicación.',
-    eyebrow: 'Borrador legal',
-    intro: 'Base de términos para explicar el servicio en preparación sin prometer disponibilidad inmediata.',
+    description: 'Términos y condiciones en preparación para la etapa de lanzamiento de 7Lleva.',
+    eyebrow: 'Documento en preparación para lanzamiento',
+    intro: 'Documento en preparación para explicar el servicio sin prometer disponibilidad inmediata.',
     sections: [
       {
         title: 'Naturaleza de plataforma',
         paragraphs: [
           '7Lleva prepara una plataforma tecnológica para conectar usuarios con conductores participantes, taxis registrados, mototaxis donde aplique y servicios de entrega o mandados.',
-          'La disponibilidad final dependerá de publicación oficial, cobertura activa, validación y reglas de operación.'
+          'La disponibilidad operativa dependerá del lanzamiento oficial, cobertura activa, validación y reglas de operación.'
         ]
       },
       {
@@ -178,8 +178,8 @@ export const legalPages: LegalPage[] = [
     slug: 'cancelaciones-reembolsos',
     navLabel: 'Cancelaciones y reembolsos',
     title: 'Política de cancelaciones y reembolsos',
-    description: 'Borrador de política de cancelaciones y reembolsos de 7Lleva, pendiente de revisión profesional.',
-    eyebrow: 'Borrador operativo',
+    description: 'Política de cancelaciones y reembolsos en preparación para la etapa de lanzamiento de 7Lleva.',
+    eyebrow: 'Documento en preparación para lanzamiento',
     intro: 'Reglas generales en preparación. No promete reembolsos automáticos ni integra pagos digitales reales por sí misma.',
     sections: [
       {
@@ -203,8 +203,8 @@ export const legalPages: LegalPage[] = [
     slug: 'eliminacion-cuenta',
     navLabel: 'Eliminación de cuenta',
     title: 'Eliminación de cuenta',
-    description: 'Página base para solicitudes de eliminación de cuenta de 7Lleva, pendiente de revisión y activación.',
-    eyebrow: 'Base para Google Play',
+    description: 'Página pública en preparación para solicitudes de eliminación de cuenta de 7Lleva.',
+    eyebrow: 'Documento en preparación para lanzamiento',
     intro: 'Página pública en preparación para atender solicitudes cuando la app sea publicada.',
     sections: [
       {
@@ -217,7 +217,7 @@ export const legalPages: LegalPage[] = [
       },
       {
         title: 'Conservación temporal',
-        paragraphs: ['Algunos datos podrían conservarse por obligaciones legales, operativas, seguridad, disputas, prevención de fraude, pagos o soporte. Plazo de respuesta: pendiente de definir.']
+        paragraphs: ['Algunos datos podrían conservarse por obligaciones legales, operativas, seguridad, disputas, prevención de fraude, pagos o soporte. El plazo de respuesta se definirá antes del inicio de operaciones.']
       }
     ]
   }
@@ -227,16 +227,16 @@ export const supportSections = [
   {
     title: 'Soporte',
     email: site.emails.support,
-    text: 'Para dudas de acceso, servicio, reportes o aclaraciones. Pendiente de activación operativa.'
+    text: 'Canal previsto para dudas de acceso, servicio, reportes o aclaraciones durante la etapa de lanzamiento.'
   },
   {
     title: 'Contacto',
     email: site.emails.contact,
-    text: 'Para información general sobre la etapa inicial de 7Lleva.'
+    text: 'Canal previsto para información general sobre la etapa inicial de 7Lleva.'
   },
   {
     title: 'Legal',
     email: site.emails.legal,
-    text: 'Para privacidad, términos, solicitudes legales y revisión de documentos.'
+    text: 'Canal previsto para privacidad, términos y solicitudes legales del proyecto.'
   }
 ];

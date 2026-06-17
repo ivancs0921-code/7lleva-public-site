@@ -51,7 +51,7 @@ const pageMeta: Record<PageKey, MetaConfig> = {
   },
   legales: {
     title: 'Legales | 7Lleva',
-    description: 'Documentos legales públicos base de 7Lleva para revisión previa a publicación.',
+    description: 'Documentos legales públicos de 7Lleva para la etapa de lanzamiento.',
     path: '/legales'
   },
   'aviso-privacidad': {
@@ -412,7 +412,7 @@ function LegalIndexPage({ onNavigate }: { onNavigate: (path: string) => void }) 
     <ContentPage
       eyebrow="Legales"
       title="Documentos legales públicos"
-      intro="Bases legales en preparación para revisión profesional antes de publicación definitiva."
+      intro="Documentos públicos en preparación para la etapa previa al inicio de operaciones."
     >
       <div className="grid grid-three">
         {legalPages.map((page) => (
@@ -426,7 +426,7 @@ function LegalIndexPage({ onNavigate }: { onNavigate: (path: string) => void }) 
         ))}
       </div>
       <div className="notice">
-        <p>Estos textos no sustituyen revisión de abogado, contador ni asesor fiscal antes de publicación.</p>
+        <p>La versión aplicable se publicará antes del inicio de operaciones.</p>
       </div>
     </ContentPage>
   );

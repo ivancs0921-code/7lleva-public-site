@@ -117,8 +117,8 @@ El archivo `public/_headers` incluye:
 ## Pendientes antes de publicar
 
 - Activar `soporte@7lleva.com`, `contacto@7lleva.com` y `legal@7lleva.com`.
-- Revisar documentos legales con abogado.
-- Revisar implicaciones fiscales/contables con contador.
+- Validar documentos legales con asesoría profesional antes del inicio de operaciones.
+- Revisar implicaciones fiscales/contables con asesoría profesional.
 - Confirmar fecha de publicación.
 - Confirmar zonas reales activas.
 - Confirmar disponibilidad pública de la app.
